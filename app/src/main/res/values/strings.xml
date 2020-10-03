@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SouthJakTrip</string>
+    <string name="transport_name">Transportasi</string>
+    <string name="wisata_name">Tempat Wisata</string>
+    <string name="judul_artikel">Judul</string>
+    <string name="detail_name">Detail</string>
+    <string name="baca_tombol">Baca</string>
+    <string name="desc_tempt">Keterangan</string>
+    <string name="title_hotel">Hotel</string>
+    <string name="title_transport">Transportasi</string>
+    <string name="title_wisatabl">Wisata Baru</string>
+    <string name="title_wisata">Tempat Wisata</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="about_name">About</string>
+    <string name="home_name">Home</string>
+    <string name="txtabout">Aplikasi ini dibuat sebagai alternatif dalam membantu perjalanan wisata yang informasinya bersumber
+        dari beberapa situs resmi dari Pemerintah Kota Jakarta seperti situs Enjoy Jakarta dan Jakarta.go.id. Aplikasi ini dibuat oleh
+    Nadila Rizky Putri yang diharapkan akan dapat dikembangkan nantinya oleh developer lain guna membantu wisatawan lokal maupun non lokal dalam
+    mencari tempat-tempat wisata maupun transportasi umum.</string>
+</resources>

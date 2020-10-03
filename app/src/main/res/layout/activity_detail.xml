@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="399dp"
+        android:layout_height="231dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center" />
+
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipe"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_rate"
+        android:layout_width="27dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/btn_star_big_on"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/title_detail"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Judul"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Alamat"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+
+    <TextView
+        android:id="@+id/link_detail"
+        android:layout_width="147dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="135dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Link"
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/google_maps" />
+</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/link_detail">
+
+        <RelativeLayout
+            android:layout_width="450dp"
+            android:layout_height="6dp"
+            android:layout_margin="3dp">
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:id="@+id/desc_detail"
+                android:layout_width="397dp"
+                android:layout_height="486dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="15dp"
+                android:text="Deskripsi"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

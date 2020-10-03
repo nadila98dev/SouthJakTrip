@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999270035557",
+    "firebase_url": "https://southjaktrip.firebaseio.com",
+    "project_id": "southjaktrip",
+    "storage_bucket": "southjaktrip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999270035557:android:071fe21ba651a04b",
+        "android_client_info": {
+          "package_name": "com.example.southjaktrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999270035557-uekks5kl77a4gcvfr1mmi8u10s3hoe0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.southjaktrip",
+            "certificate_hash": "ab180ddfed8e0ea3ae374e66381fa9b1d87eb0a1"
+          }
+        },
+        {
+          "client_id": "999270035557-iuvhbmv80gjqhl4ct9r1567q4uh5c45c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkdPQShbYePxiwwsH__cd65lsCaqReX74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999270035557-iuvhbmv80gjqhl4ct9r1567q4uh5c45c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

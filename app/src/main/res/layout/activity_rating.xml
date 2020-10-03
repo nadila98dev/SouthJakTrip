@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rating">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+
+    <RatingBar
+        android:id="@+id/rating_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:numStars="4"
+        android:stepSize=".5" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/rating_display_text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit_button"
+        android:layout_alignEnd="@+id/rating_rating_bar"
+        android:layout_marginTop="-95dp"
+        android:text="Your rating will appear here" />
+
+    <TextView
+        android:id="@+id/tvTempat"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="125dp"
+        android:gravity="center"
+        android:text="Rate the App" />
+
+    <EditText
+        android:id="@+id/post_detail_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="307dp"
+        android:ems="10"
+        android:hint="Write Comment"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/post_detail_add_comment_btn"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="306dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="@+id/post_detail_comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/post_detail_comment"
+        app:layout_constraintTop_toTopOf="@+id/post_detail_comment"
+        app:layout_constraintVertical_bias="0.529" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="238dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
